@@ -88,6 +88,7 @@ If you do not, click on <b>'Export PPTX as images'</b> to get the instructions a
 
 6. Your presentation has started!
 
+![presentation](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/presentation.png)
 
 7. You can now change the slides from the 'Controls' window.
 
