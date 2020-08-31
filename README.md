@@ -5,6 +5,8 @@ The problem with any presentation software such as PowerPoint, iWork Keynote or 
 
 ### More Demonstrations: [Wiki Page](https://github.com/VismayaAtreya/Python3-Slideshow-Software/wiki/Demonstrations)
 
+### See [progress in version 3](https://github.com/VismayaAtreya/Python3-Slideshow-Software/projects/1?add_cards_query=is%3Aopen)
+
 ## Usage
 
 1. Click [here](https://github.com/VismayaAtreya/Python3-Slideshow-Software/archive/master.zip) to clone the repository. Extract all the contents into one folder.
@@ -102,6 +104,8 @@ Release Information in [Wiki](https://github.com/VismayaAtreya/Python3-Slideshow
 * Version 1.0: Presenter notes, slidehshow controls in new window
 
 * Version 2.0: Save an load presenter notes, hide and show presenter notes and controls, resize slides with slider, ribbon menus for slideshow, controls, presenter notes and help
+
+### See [progress in version 3](https://github.com/VismayaAtreya/Python3-Slideshow-Software/projects/1?add_cards_query=is%3Aopen)
 
 ## Areas of improvements
 
