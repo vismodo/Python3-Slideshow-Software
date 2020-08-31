@@ -166,7 +166,7 @@ try:
 
     panel2.pack(side = "top", fill = "both", expand = "yes")
     next_but = Button(welcome, text="Create from folder", bd=4, padx=14, pady=14, bg='orange', command=next_func, font=("Aerial Rounded MT Bold",16,'bold')).pack(side = BOTTOM)
-    next_but2 = Button(welcome, text="Create from PPTX", bd=4, padx=14, pady=14, bg='orange', command=next_func, font=("Aerial Rounded MT Bold",16,'bold')).pack(side = BOTTOM)
+    next_but2 = Button(welcome, text="Export PPTX as images", bd=4, padx=14, pady=14, bg='orange', command=lambda: showinfo('Export Presentation', 'In PowerPoint, click on File > Export, and save is as multiple ".jpeg files". The resolution decides the quality of the presentation.'), font=("Aerial Rounded MT Bold",16,'bold')).pack(side = BOTTOM)
     welcome.mainloop()
 except Exception as e:
     showinfo('Error', e)
