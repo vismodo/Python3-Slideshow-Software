@@ -1,7 +1,32 @@
 # Python 3 Slideshow Software - Version 2.0
 The problem with any presentation software such as PowerPoint, iWork Keynote or LibreOffice Impress is that they present in full-screen, which isn't the best option when you are doing live screen sharing and using other apps at the same time. This slideshow app, written in Python 3.8 will help you out in such a case.
+
+## Demonstrations
+
+Here are a few demonstrations of [Slideshow Software V2.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) in [IDLE](https://docs.python.org/3/library/idle.html). [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py) will work the exact same way.
+
+### Basic Usage
+
+![Basic Usage.gif](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Demonstrations/Basic%20Demo.gif)
+
+### Presenter Notes
+
+![Presenter Notes.gif](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Demonstrations/Presenter%20Notes.gif)
+
+### Screen Sharing with [Skype](https://skype.com/en)
+
+![Skype Sharing.gif](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Demonstrations/Skype%20Sharing.gif)
+
+### Screen Sharing with [Zoom](https://zoom.us)
+
+![Zoom Sharing.gif](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Demonstrations/Zoom%20Sharing.gif)
+
+### Output on the Other End
+
+![Output.gif](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Demonstrations/Output.gif)
+
 ## Support
-This project currently supports linux based platforms, including macOS. The files are have been tested on windows too, and they work.
+This project currently supports linux based platforms, including macOS. The files are have been tested on Windows 10 too, and they work.
 
 ## Features 
 ### In Version [1.0](https://github.com/VismayaAtreya/Python3-Slideshow-Software/tree/Version-1.0)
