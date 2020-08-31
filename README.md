@@ -22,7 +22,7 @@ If you do not, click on <b>'Export PPTX as images'</b> to get the instructions a
 
 5. Select the folder which contains the images for the slideshow.
 
-![open_dir](https://github.com/VismayaAtreya/Python3-lideshow-Software/blob/master/User%20Guide%20Images/open_dir.png)
+![open_dir](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/open_dir.png)
 
 6. Your presentation has started!
 
