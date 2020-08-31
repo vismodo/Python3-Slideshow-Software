@@ -1,10 +1,68 @@
-# Python 3 Slideshow Software
+# Python 3 Slideshow Software - Version 2.0
 The problem with any presentation software such as PowerPoint, iWork Keynote or LibreOffice Impress is that they present in full-screen, which isn't the best option when you are doing live screen sharing and using other apps at the same time. This slideshow app, written in Python 3.8 will help you out in such a case.
 ## Support
-This project currently supports linux based platforms, including macOS. The files are supposed to run on windows as well, but hasn't been tested yet.
+This project currently supports linux based platforms, including macOS. The files are have been tested on windows too, and they work.
+
+## Features 
+### In Version [1.0](https://github.com/VismayaAtreya/Python3-Slideshow-Software/tree/Version-1.0)
+
+* Create presentations from folders with image formats like `.jpg`, `.jpeg`, `.tiff`, `.bmp`, `.png`and `.gif`.
+```
+if (filename[a].endswith('.png') == True) or (filename[a].endswith('.jpg') == True) or (filename[a].endswith('.jpeg') == True) or (filename[a].endswith('.tiff') == True) or (filename[a].endswith('.bmp') == True) or (filename[a].endswith('.gif') == True):
+```
+* Scrollable Presenter Notes
+
+![notes](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/Version-1.0/User%20Guide%20Images/presenter_notes.png)
+
+* Cross Platform
+```
+if 'Windows' in platform.platform():
+    a = filedir+r'\n'+filename[a]
+    print(a)
+     filelist.append(filedir+'\\'+filename[a])
+else:
+     filelist.append(filedir+'/'+filename[a])
+```
+* Auto-format slides (based on name)
+```
+filename = os.listdir(filedir)
+```
+* Only retain valid files for presentations(remove invalid images from list)
+```
+for a in range(len(filename)):
+    if (filename[a].endswith('.png') == True) or (filename[a].endswith('.jpg') == True) or (filename[a].endswith('.jpeg') == True) or (filename[a].endswith('.tiff') == True) or (filename[a].endswith('.bmp') == True) or (filename[a].endswith('.gif') == True):
+        if 'Windows' in platform.platform():
+            a = filedir+r'\n'+filename[a]
+            print(a)
+            filelist.append(filedir+'\\'+filename[a])
+        else:
+            filelist.append(filedir+'/'+filename[a])
+            print("Successfully added '"+filename[a]+"' file"
+    else:
+        print("Removed invalid image '"+filename[a]+"'")
+```
+
+### In Version [2.0](https://github.com/VismayaAtreya/Python3-Slideshow-Software/)
+
+* A new dropdown-menu to change slides, without going over to the controls window to do so, and also an option to quit.
+
+![slideshow_dropdown.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/slideshow_dropdown.png)
+
+* A new dropdown-menu to hide, show, save and load presenter notes from text files.
+
+![notes_dropdown.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/notes_dropdown.png)
+
+* Another dropdown-menu to show and hide controls.
+
+![slideshow_dropdown.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/help_dropdown.png)
+
+* There is an 'Online Help' menu too, which links to files in this repository
+
+![help_dropdown.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/help_dropdown.png)
+
 ## Getting Started
 1. Click [here](https://github.com/VismayaAtreya/Python3-Slideshow-Software/archive/master.zip) to clone the repository. Extract all the contents into one folder.
-2. Open ['Slideshow Software.py'](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) in [IDLE](https://docs.python.org/3/library/idle.html)
+2. Open ['Slideshow Software.py'](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py) in [IDLE](https://docs.python.org/3/library/idle.html)
 
 ![open_file](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/open_file.png)
 
@@ -31,7 +89,7 @@ This project currently supports linux based platforms, including macOS. The file
 8. If you wish to stop, close the IDLE shell window.
 ## Troubleshooting
 
-If the image turns out to be too large, reduce it's size in your preferred image editor and start the slideshow again!
+If the image turns out to be a little blurry or degraded in [Without Pillow.py]((https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py)
 
 For further queries, [create an issue](https://github.com/VismayaAtreya/Python3-Slideshow-Software/issues/new/choose) and I will get back to you as fast as possible.
 
