@@ -161,7 +161,7 @@ try:
         notes_frame.protocol("WM_DELETE_WINDOW", disable_event)
     welcome = Tk()
     welcome.title('Python Slideshow app')
-    img2 = PhotoImage(file="/Volumes/AUX HD/Vismaya Atreya/Python/Projects/Slideshow Software/Welcome_Screen.png")
+    img2 = PhotoImage(file="Welcome_Screen.png")
     panel2 = Label(welcome, image = img2)
 
     panel2.pack(side = "top", fill = "both", expand = "yes")
