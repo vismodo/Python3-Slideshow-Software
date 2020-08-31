@@ -70,9 +70,13 @@ for a in range(len(filename)):
 
 ![run_module](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/run_module.png)
 
-4. Click on <b>'Create your slideshow'</b>
+4. Click on <b>'Create your slideshow'</b> if you already have your pictures in one folder.
 
 ![welcome_tk](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/welcome_tk.png)
+
+If you do not, click on <b>'Export PPTX as images'</b> to get the instructions as an alert, like this.
+
+![alert](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/alert.png)
 
 5. Select the folder which contains the images for the slideshow.
 
