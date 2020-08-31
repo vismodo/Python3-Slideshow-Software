@@ -14,7 +14,7 @@ The problem with any presentation software such as PowerPoint, iWork Keynote or 
 
 4. Click on <b>'Create your slideshow'</b> if you already have your pictures in one folder.
 
-![welcome_tk](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/welcome_tk.png =20x20)
+<img src="https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/welcome_tk.png" alt="drawing" width="600"/>
 
 If you do not, click on <b>'Export PPTX as images'</b> to get the instructions as an alert, like this.
 
@@ -22,11 +22,11 @@ If you do not, click on <b>'Export PPTX as images'</b> to get the instructions a
 
 5. Select the folder which contains the images for the slideshow.
 
-![open_dir](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/open_dir.png)
+![open_dir](https://github.com/VismayaAtreya/Python3-lideshow-Software/blob/master/User%20Guide%20Images/open_dir.png)
 
 6. Your presentation has started!
 
-![presentation](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/presentation.png)
+<img src="https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/presentation.png" alt="drawing" width="600"/>
 
 7. You can now change the slides from the 'Controls' window.
 
@@ -34,12 +34,20 @@ If you do not, click on <b>'Export PPTX as images'</b> to get the instructions a
 
 8. In your call, click on 'Share Screen' and select your presentation! You also have a window for presenter notes!
 
-![presenter_notes](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/presenter_notes.png)
+<img src="https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/presenter_notes.png" alt="drawing" width="600"/>
 
 9. If you wish to stop, from the 'Slideshow' dropdown menu in the ribbbon, select 'Quit'.
 
 ![slideshow_dropdown.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/slideshow_dropdown.png)
 
+## Customising the Code
+
+* Change the name of the presentation (Window Title) from line 25 of [Slideshow Software.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or line 24 of [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py)
+
+```
+root.title('Python Presentation Software')
+```
+* Change [Welcome_Screen.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Welcome_Screen.png) to a picture that you prefer, or change the directory on line 165 of [Slideshow Software.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or line 164 of [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py)
 
 ## Troubleshooting
 
@@ -81,3 +89,24 @@ FileNotFoundError: [Errno 2] No such file or directory: ''
 ```
 
 * To fix this, you need to show an alert with `showinfo` and quit the program if `filename` is empty
+
+
+### An issue is not listed here?
+
+* I have worked on this project and debugged it for over a week. If you have any other problem or feature you would like to suggest, [submit an issue](https://github.com/VismayaAtreya/Python3-Slideshow-Software/issues). I will give update the code in a couple days and put the soulution in this list and I will also respond to your issue in the issues tab
+
+## Releases
+
+Release Information in [Wiki](https://github.com/VismayaAtreya/Python3-Slideshow-Software/wiki/Releases)
+
+* Version 1.0: Presenter notes, slidehshow controls in new window
+
+* Version 2.0: Save an load presenter notes, hide and show presenter notes and controls, resize slides with slider, ribbon menus for slideshow, controls, presenter notes and help
+
+## Areas of improvements
+
+I am unable to fix these issues, so you can solve these and tell me how you solved by [submitting an issue](https://github.com/VismayaAtreya/Python3-Slideshow-Software/issues)
+
+* Split `.pptx` presentations to images without the `python-pptx` module.
+* Split `.pdf` documents into images without the `pdf2jpg` module.
+* Download images from the web and create presentations from those.
