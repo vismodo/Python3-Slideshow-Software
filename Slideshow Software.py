@@ -23,16 +23,16 @@ try: #Try execution of lines below with indentation
         welcome.destroy() # Destroy the tkinter window 'welcome' from the parent window
         root = Tk() # Create a new tkinter window called 'root' with which is tkinter's 'Tk' object
         root.title('Python Presentation Software') # Set the title of the tkinter window 'root' to 'Python Presentation Software'
-        notes_frame = Tk()
-        notes_frame.title('Presenter Notes')
-        notes = scrolledtext.ScrolledText(notes_frame, font = ('Helevectical', 14))
-        notes.pack()
+        notes_frame = Tk() # Create a new tkinter window called 'notes_frame' with which is tkinter's 'Tk' object
+        notes_frame.title('Presenter Notes') # Set the title of the tkinter window 'notes_frane' to 'Presenter Notes'
+        notes = scrolledtext.ScrolledText(notes_frame, font = ('Helevectical', 14)) # Create a new tkinter scrolledtext scrollable text box called 'notes' with which is scrolledtext's 'ScrolledText' object. It is created in the 'notes_frame' window, with the font 'Helevectical' and size 14
+        notes.pack() # Shows the tkinter widget 'notes' in the parent window on the top hand side
 
-        global filename
-        filedir = filedialog.askdirectory(title='Where are all your images?')
-        filename = os.listdir(filedir)
-        filelist = ['']
-        for a in range(len(filename)):
+        global filename # Make the variable 'filename' visible to all functions
+        filedir = filedialog.askdirectory(title='Where are all your images?') # Use the 'askdirectory' object ok tkinter's filedialog class with the title 'Where are all your images?', so that the directory can be taken and saved as a string in 'filedir'
+        filename = os.listdir(filedir) # Use the os module's 'listdir' object to list down all the files and subfolders in the directory 'filedir' and save it in a variable called filelist
+        filelist = [''] # Create a list called filelist with one empty string
+        for a in range(len(filename)): # While the integer 'a' is in the range of the length of the list 'filename', execute the indented code that follows.
             if (filename[a].endswith('.png') == True) or (filename[a].endswith('.jpg') == True) or (filename[a].endswith('.jpeg') == True) or (filename[a].endswith('.tiff') == True) or (filename[a].endswith('.bmp') == True) or (filename[a].endswith('.gif') == True):
                 if 'Windows' in platform.platform():
                     a = filedir+r'\n'+filename[a]
