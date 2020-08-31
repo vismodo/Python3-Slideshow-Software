@@ -60,6 +60,10 @@ for a in range(len(filename)):
 
 ![help_dropdown.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/help_dropdown.png)
 
+* You can change the size of the slideshow too with the slider below the slide controls!
+
+![controls.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/controls.png)
+
 ## Getting Started
 1. Click [here](https://github.com/VismayaAtreya/Python3-Slideshow-Software/archive/master.zip) to clone the repository. Extract all the contents into one folder.
 2. Open ['Slideshow Software.py'](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py) in [IDLE](https://docs.python.org/3/library/idle.html)
@@ -82,15 +86,21 @@ If you do not, click on <b>'Export PPTX as images'</b> to get the instructions a
 
 ![open_dir](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/open_dir.png)
 
-6. Your presentation has started! you can now change the slides from the 'Controls' window.
+6. Your presentation has started!
+
+
+7. You can now change the slides from the 'Controls' window.
 
 ![controls](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/controls.png)
 
-7. In your call, click on 'Share Screen' and select your presentation! You also have a window for presenter notes!
+8. In your call, click on 'Share Screen' and select your presentation! You also have a window for presenter notes!
 
 ![presenter_notes](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/presenter_notes.png)
 
-8. If you wish to stop, close the IDLE shell window.
+9. If you wish to stop, from the 'Slideshow' dropdown menu in the ribbbon, select 'Quit'.
+
+![slideshow_dropdown.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/User%20Guide%20Images/slideshow_dropdown.png)
+
 ## Troubleshooting
 
 If the image turns out to be a little blurry or degraded in [Without Pillow.py]((https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py)
