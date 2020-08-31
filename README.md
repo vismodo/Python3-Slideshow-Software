@@ -54,7 +54,7 @@ for a in range(len(filename)):
 
 * Another dropdown-menu to show and hide controls.
 
-![controls_dropdown.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob//User%20Guide%20Images/controls_dropdown.png)
+![controls_dropdown.png](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/Version-2.0/User%20Guide%20Images/controls_dropdown.png)
 
 * There is an 'Online Help' menu too, which links to files in this repository
 
