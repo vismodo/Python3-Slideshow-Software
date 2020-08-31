@@ -104,7 +104,7 @@ If you do not, click on <b>'Export PPTX as images'</b> to get the instructions a
 
 ## Troubleshooting
 
-If the image turns out to be a little blurry or degraded in [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py), Just move to a different slide and go back. This is a problem with tkinter's Photoimage
+If the image turns out to be a little blurry or degraded in [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py), Just move to a different slide and go back. This is a problem with tkinter's Photoimage attribute.
 
 For further queries, [create an issue](https://github.com/VismayaAtreya/Python3-Slideshow-Software/issues/new/choose) and I will get back to you as fast as possible.
 
