@@ -15,9 +15,27 @@ The best part is that it is open-source, and even Not-Experienced Python develop
 ## Usage
 
 1. Click [here](https://github.com/VismayaAtreya/Python3-Slideshow-Software/archive/master.zip) to clone the repository. Extract all the contents into one folder.
+
+<b>If you choose to use ['Slideshow Software.py'](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py) in [IDLE](https://docs.python.org/3/library/idle.html), open Command Prompt or Terminal on your computer and install [Pillow](https://python-pillow.org/) with [pip](https://pypi.org/project/pip/), like this:</b>
+
+```
+pip install Pillow
+```
+Or, if your default Python version is Python 2.7 (find out with `python --version`),
+
+```
+pip3 install Pillow
+```
+
 2. Open ['Slideshow Software.py'](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py) in [IDLE](https://docs.python.org/3/library/idle.html)
 
 3. Click on <b>Run -> Run Module</b> and wait for a tkinter window to pop up.
+
+<b>Alternatively, you can also try executing `python3` or `python` followed by your file's location like this, in Terminal or Command Prompt</b>
+
+```
+python3 /Users/Me/Documents/Python3-Slideshow-Software-master/Slideshow Software.py
+```
 
 4. Click on <b>'Create your slideshow'</b> if you already have your pictures in one folder.
 
