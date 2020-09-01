@@ -105,7 +105,9 @@ try: #Try execution of lines below with indentation
             notes.delete('1.0', END)
             text = open(filedialog.askopenfile(initialdir = "/",title = "Select file",filetypes =(("Text Files","*.txt"),)).name)
             notes.insert(END, text.read())
+            
         ribbon3 = Menu(notes_frame)
+        
         notes_menu2 = Menu(ribbon3, tearoff=0)
         notes_menu2.add_command(label='Hide Presenter Notes', command= notes_frame.withdraw)
         notes_menu2.add_separator()
