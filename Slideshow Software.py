@@ -33,9 +33,9 @@ try: #Try execution of lines below with indentation
         for a in range(len(filename)): # While the integer 'a' is in the range of the length of the list 'filename', execute the indented code that follows.
             if (filename[a].endswith('.png') == True) or (filename[a].endswith('.jpg') == True) or (filename[a].endswith('.jpeg') == True) or (filename[a].endswith('.tiff') == True) or (filename[a].endswith('.bmp') == True) or (filename[a].endswith('.gif') == True):
                 if 'Windows' in platform.platform():
-                    a = filedir+r'\n'+filename[a]
-                    print(a)
-                    filelist.append(filedir+'\\'+filename[a])
+                    b = filedir+'\\'+filename[a]
+                    print(b)
+                    filelist.append((filedir.replace('/', '\\')).replace(':\\', ':\\\\')+'\\'+filename[a])
                 else:
                     filelist.append(filedir+'/'+filename[a])
                 print("Successfully added '"+filename[a]+"' file")
@@ -105,9 +105,7 @@ try: #Try execution of lines below with indentation
             notes.delete('1.0', END)
             text = open(filedialog.askopenfile(initialdir = "/",title = "Select file",filetypes =(("Text Files","*.txt"),)).name)
             notes.insert(END, text.read())
-        
         ribbon3 = Menu(notes_frame)
-
         notes_menu2 = Menu(ribbon3, tearoff=0)
         notes_menu2.add_command(label='Hide Presenter Notes', command= notes_frame.withdraw)
         notes_menu2.add_separator()
