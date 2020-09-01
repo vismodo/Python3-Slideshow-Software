@@ -4,6 +4,7 @@ try:
     import os
     import platform
     import webbrowser as wb
+    from tkinter import scrolledtext
     def next_sl():
         panel.destroy()
         slide_var.set(str(int(slide_var.get())+1))
@@ -14,7 +15,6 @@ try:
         slide_var.set(str(int(slide_var.get())-1))
         open_img()
         print(slide_var.get())
-
     global change_sl
     def next_func():
         welcome.destroy()
