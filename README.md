@@ -49,12 +49,12 @@ If you do not, click on <b>'Export PPTX as images'</b> to get the instructions a
 
 ## Customising the Code
 
-* Change the name of the presentation (Window Title) from line 25 of [Slideshow Software.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or line 24 of [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py)
+* Change the name of the presentation (Window Title) from line 23 of [Slideshow Software.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or line 22 of [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py)
 
 ```
 root.title('Python Presentation Software')
 ```
-* Change [Welcome_Screen.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Welcome_Screen.png) to a picture that you prefer, or change the directory on line 165 of [Slideshow Software.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or line 164 of [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py)
+* Change [Welcome_Screen.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Welcome_Screen.png) to a picture that you prefer, or change the directory on line 163 of [Slideshow Software.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) or line 162 of [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py)
 
 ## Troubleshooting
 
