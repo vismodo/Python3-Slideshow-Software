@@ -4,7 +4,7 @@ try:
     import os
     import platform
     import webbrowser as wb
-    from tkinter import scrolledtext
+    from tkinter import scrolledtext, filedialog
     def next_sl():
         panel.destroy()
         slide_var.set(str(int(slide_var.get())+1))
