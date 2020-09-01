@@ -32,9 +32,9 @@ try:
         for a in range(len(filename)):
             if (filename[a].endswith('.png') == True) or (filename[a].endswith('.jpg') == True) or (filename[a].endswith('.jpeg') == True) or (filename[a].endswith('.tiff') == True) or (filename[a].endswith('.bmp') == True) or (filename[a].endswith('.gif') == True):
                 if 'Windows' in platform.platform():
-                    a = filedir+r'\n'+filename[a]
-                    print(a)
-                    filelist.append(filedir+'\\'+filename[a])
+                    b = filedir+'\\'+filename[a]
+                    print(b)
+                    filelist.append((filedir.replace('/', '\\')).replace(':\\', ':\\\\')+'\\'+filename[a])
                 else:
                     filelist.append(filedir+'/'+filename[a])
                 print("Successfully added '"+filename[a]+"' file")
