@@ -1,8 +1,6 @@
 try:
     from tkinter import *
-    from tkinter import filedialog
     from tkinter.messagebox import showinfo
-    from tkinter import scrolledtext
     import os
     import platform
     import webbrowser as wb
