@@ -112,7 +112,7 @@ Release Information in [Wiki](https://github.com/VismayaAtreya/Python3-Slideshow
 
 ### See [progress in version 3](https://github.com/VismayaAtreya/Python3-Slideshow-Software/projects/1?add_cards_query=is%3Aopen)
 
-## Areas of improvements
+## Areas for improvement
 
 I am unable to fix these issues, so you can solve these and tell me how you solved by [submitting an issue](https://github.com/VismayaAtreya/Python3-Slideshow-Software/issues)
 
