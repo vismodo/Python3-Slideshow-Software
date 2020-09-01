@@ -2,7 +2,7 @@ try: #Try execution of lines below with indentation
     from tkinter import * # Import everything from the pre-installed tkinter TK GUI toolkit
     from PIL import ImageTk, Image # Import ImageTk and Image classes from the pillow library
     from tkinter.messagebox import showinfo # Import the showinfo class from the pre-installed tkinter.messagebox module(showinfo lets you display alerts in the centre of the screen
-    from tkinter import scrolledtext
+    from tkinter import scrolledtext, filedialog
     import os # Import the the pre-installed os module
     import platform # Import the the pre-installed platform module (platform allows you to find system data through python)
     import webbrowser as wb # Import the the pre-installed webbrowser module as wb (webbrowser allows you to do open urls in your browser, among many other things)
