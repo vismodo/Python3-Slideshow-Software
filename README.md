@@ -124,7 +124,7 @@ FileNotFoundError: [Errno 2] No such file or directory: ''
 
 Release Information in [Wiki](https://github.com/VismayaAtreya/Python3-Slideshow-Software/wiki/Releases)
 
-* Version 1.0: Presenter notes, slidehshow controls in new window
+* Version 1.0 (Deprecated): Presenter notes, slidehshow controls in new window
 
 * Version 2.0: Save an load presenter notes, hide and show presenter notes and controls, resize slides with slider, ribbon menus for slideshow, controls, presenter notes and help
 
