@@ -2,7 +2,6 @@
 The problem with any presentation software such as PowerPoint, iWork Keynote or LibreOffice Impress is that they present in full-screen, which isn't the best option when you are doing live screen sharing and using other apps at the same time. This slideshow app, written in Python 3.8 will help you out in such a case.
 The best part is that it is open-source, and even Not-Experienced Python developers can understand, easily!
 
-https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/60b9c2a4670339250687fe09299b4d52cad62cae/Slideshow%20Software.py#L20-L27
 
 ![Basic Demo.gif](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Demonstrations/Basic%20Demo.gif)
 
