@@ -9,10 +9,6 @@ The best part is that it is open-source, and even Not-Experienced Python develop
 
 ### See [progress in version 3](https://github.com/VismayaAtreya/Python3-Slideshow-Software/projects/1?add_cards_query=is%3Aopen)
 
-### Code is documented for ['Slideshow Software.py'](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Slideshow%20Software.py) over [here](https://github.com/VismayaAtreya/Python3-Slideshow-Software/wiki/Documentation-for-'Slideshow-Software.py') 
-
-### Code is documented for [Without Pillow.py](https://github.com/VismayaAtreya/Python3-Slideshow-Software/blob/master/Without%20Pillow.py) over [here](https://github.com/VismayaAtreya/Python3-Slideshow-Software/wiki/Documentation-for-'Without-Pillow.py')
-
 ## Usage
 
 1. Click [here](https://github.com/VismayaAtreya/Python3-Slideshow-Software/archive/master.zip) to clone the repository. Extract all the contents into one folder.
