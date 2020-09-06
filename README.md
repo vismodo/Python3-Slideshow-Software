@@ -135,9 +135,6 @@ I am unable to fix these issues, so you can solve these and tell me how you solv
 * Split `.pdf` documents into images without the `pdf2jpg` module.
 * Download images from the web and create presentations from those.
 
-<iframe width="2000px" height= "700px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__uRggcJUQTNTQjczVk1EOU9JSFFUNUxCUjNLNzRKVC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-<iframe
-  src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
-  style="width:100%; height:300px;"
-></iframe>
+<figure class="video_container">
+<iframe src="https://docs.google.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/pubhtml?widget=true&amp;headers=false"></iframe>
+</figure>
