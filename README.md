@@ -134,7 +134,3 @@ I am unable to fix these issues, so you can solve these and tell me how you solv
 * Split `.pptx` presentations to images without the `python-pptx` module.
 * Split `.pdf` documents into images without the `pdf2jpg` module.
 * Download images from the web and create presentations from those.
-
-<figure class="video_container">
-<iframe src="https://docs.google.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/pubhtml?widget=true&amp;headers=false"></iframe>
-</figure>
